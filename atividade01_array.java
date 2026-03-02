@@ -16,6 +16,7 @@ public class atividade01_array {
             System.out.println("2 - Listar");
             System.out.println("3 - Alterar");
             System.out.println("4 - Remover");
+            System.out.println("0 - Sair");
             System.out.println();
             System.out.println("Informe a opção desejada: ");
 
@@ -53,7 +54,8 @@ public class atividade01_array {
                     System.out.println("Qual nome você deseja alterar: ");
                     String nome_alter = sc.nextLine();
 
-                    for (nomes[i].equalsIgnoreCase(nome_alter)) {
+                    for(int i = 0; i <quant_nomes; i++)
+                    if (nomes[i].equalsIgnoreCase(nome_alter)) {
                         System.out.println("Digite novo nome: ");
                         nomes[i] = sc.nextLine();
                         System.out.println("Nome alterado com sucesso!!");
@@ -68,13 +70,20 @@ public class atividade01_array {
                     for (int i = 0; i < quant_nomes; i++) {
                         if (nomes[i].equalsIgnoreCase(nome_remove)) {
                             
-                            for (int j = i; j < quant_nomes - 1; j++) {
-                                nomes[j] = nomes [j+1];
-                            }
+                        for (int j = i; j < quant_nomes - 1; j++) {
+                            nomes[j] = nomes [j+1];
+                        }
 
-                            nomes = [quant_nomes - 1] = null;
-                    }
+                        nomes [quant_nomes - 1] = null;
+                        quant_nomes--;
+                        System.out.println("Nome Removido com Sucesso!!");
                         break;
+                        }
+                    }
+                
+                case 0:
+                    System.out.println("Saindo...");
+                    break;
                 default:
 
                     System.out.println("\nOpção Inválida!");

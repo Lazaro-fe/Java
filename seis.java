@@ -20,15 +20,22 @@ public class seis {
                     System.out.println("Digite um número");
                     num = sc.nextInt();
                     for(int i = 1; i <=10; i++){
-                        
+                        System.out.println(num+ "X" +i+ "=" +(num*1));
                     }
                     break;
                 case 2:
+                    System.out.println("Digite um número para contagem regrassiva: ");
+                    num = sc.nextInt();
+
+                    for(int i = num; i>0; i--) {
+                        System.out.println(i);
+                    }
 
                     break;
                 default:
                     break;
             }
-        }
+        } while (op !=0);
+        sc.close();
     }
 }
