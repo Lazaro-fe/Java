@@ -1,12 +1,14 @@
 import java.util.Scanner;
 
 public class do_while{
+    
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         int op;
 
 
         do{
+            System.out.println();
             System.out.println("1-cadastrar");
             System.out.println("2-Listar");
             System.out.println("3-Remover");
