@@ -1,3 +1,5 @@
+// package atividades;
+
 import java.util.Scanner;
 public class prova_01{
 // Alunos: Diego Luis De Jesus Bras e Lázaro Ramos

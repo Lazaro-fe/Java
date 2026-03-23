@@ -1,3 +1,5 @@
+// package atividades;
+
 public class PessoaApp {
     
     public static void main(String[] args) {

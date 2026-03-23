@@ -1,3 +1,5 @@
+// package atividades;
+
 import java.util.Scanner;
 
 public class Road_trip {
@@ -48,6 +50,6 @@ public class Road_trip {
 
             opcao = sc.nextInt();
             sc.nextLine(); // Limpa o "ENTER" do Buffer do Scanner
-        }
+        } while (opcao != 6);
     }
 }

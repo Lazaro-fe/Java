@@ -1,3 +1,5 @@
+// package atividades;
+
 public class Camisa {
     
     private String cor;
