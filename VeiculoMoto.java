@@ -1,16 +1,16 @@
 public class VeiculoMoto extends Veiculo{
-    private String cilindrada;
+    private int cilindrada;
 
-    public VeiculoMoto(String Marca, String Modelo, String cilindrada){
+    public VeiculoMoto(String Marca, String Modelo, int cilindrada){
         super(Marca, Modelo);
         this.cilindrada = cilindrada;
     }
 
-    public String getCilindrada(){
+    public int getCilindrada(){
         return cilindrada;
     }
 
-    public void setCilindrada(String cilindrada){
+    public void setCilindrada(int cilindrada){
         this.cilindrada = cilindrada;
     }
 
