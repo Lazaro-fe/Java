@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class VeiculoAPPNEW {
-    
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
 
@@ -22,46 +21,57 @@ public class VeiculoAPPNEW {
         car1.setModelo(sc.nextLine());
         System.out.println("Digite a quantidade_de_portas: ");
         car1.setQuantidade_de_Portas(sc.nextInt());
+        sc.nextLine();
 
         // Carro 2
+        System.out.println();
         System.out.println("Digite a marca do carro: ");
-        car2.setMarca(null);
+        car2.setMarca(sc.nextLine());
         System.out.println("Digite o modelo do carro: ");
-        car2.setModelo(null);
+        car2.setModelo(sc.nextLine());
         System.out.println("Digite a quantidade de portas do carro: ");
         car2.setQuantidade_de_Portas(sc.nextInt());
+        sc.nextLine();
 
         // Carro 3
+        System.out.println();
         System.out.println("Digite a marca do carro: ");
-        car3.setMarca(null);
+        car3.setMarca(sc.nextLine());
         System.out.println("Digite o modelo do carro: ");
-        car3.setModelo(null);
+        car3.setModelo(sc.nextLine());
         System.out.println("Digite a quantidade de portas do carro: ");
         car3.setQuantidade_de_Portas(sc.nextInt());
+        sc.nextLine();
 
         // MOTO 1
+        System.out.println();
         System.out.println("Digite a marca da moto: ");
-        moto1.setMarca(null);
+        moto1.setMarca(sc.nextLine());
         System.out.println("Digite a marca da moto: ");
-        moto1.setModelo(null);
+        moto1.setModelo(sc.nextLine());
         System.out.println("Digite a quanttidade de cilindradas da moto: ");
         moto1.setCilindrada(sc.nextInt());
+        sc.nextLine();
 
         // MOTO 2 
+        System.out.println();
         System.out.println("Digite a marca da moto: ");
-        moto2.setMarca(null);
+        moto2.setMarca(sc.nextLine());
         System.out.println("Digite a marca da moto: ");
-        moto2.setModelo(null);
+        moto2.setModelo(sc.nextLine());
         System.out.println("Digite a quanttidade de cilindradas da moto: ");
         moto2.setCilindrada(sc.nextInt());
+        sc.nextLine();
 
         // MOTO 3
+        System.out.println();
         System.out.println("Digite a marca da moto: ");
-        moto3.setMarca(null);
+        moto3.setMarca(sc.nextLine());
         System.out.println("Digite a marca da moto: ");
-        moto3.setModelo(null);
+        moto3.setModelo(sc.nextLine());
         System.out.println("Digite a quanttidade de cilindradas da moto: ");
         moto3.setCilindrada(sc.nextInt());
+        sc.nextLine();
 
         // TABELA DE VEICULOS REGISTRADOS
 
