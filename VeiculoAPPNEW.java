@@ -47,7 +47,7 @@ public class VeiculoAPPNEW {
         System.out.println();
         System.out.println("Digite a marca da moto: ");
         moto1.setMarca(sc.nextLine());
-        System.out.println("Digite a marca da moto: ");
+        System.out.println("Digite o modelo da moto: ");
         moto1.setModelo(sc.nextLine());
         System.out.println("Digite a quanttidade de cilindradas da moto: ");
         moto1.setCilindrada(sc.nextInt());
@@ -57,7 +57,7 @@ public class VeiculoAPPNEW {
         System.out.println();
         System.out.println("Digite a marca da moto: ");
         moto2.setMarca(sc.nextLine());
-        System.out.println("Digite a marca da moto: ");
+        System.out.println("Digite o modelo da moto: ");
         moto2.setModelo(sc.nextLine());
         System.out.println("Digite a quanttidade de cilindradas da moto: ");
         moto2.setCilindrada(sc.nextInt());
@@ -67,7 +67,7 @@ public class VeiculoAPPNEW {
         System.out.println();
         System.out.println("Digite a marca da moto: ");
         moto3.setMarca(sc.nextLine());
-        System.out.println("Digite a marca da moto: ");
+        System.out.println("Digite o modelo da moto: ");
         moto3.setModelo(sc.nextLine());
         System.out.println("Digite a quanttidade de cilindradas da moto: ");
         moto3.setCilindrada(sc.nextInt());
