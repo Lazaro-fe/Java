@@ -1,3 +1,5 @@
+// package atividades;
+
 public class Cliente { // SUPER CLASSE
 
     private String nome;

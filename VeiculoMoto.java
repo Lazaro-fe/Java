@@ -1,3 +1,4 @@
+// package atividades;
 public class VeiculoMoto extends Veiculo{
     private int cilindrada;
 
