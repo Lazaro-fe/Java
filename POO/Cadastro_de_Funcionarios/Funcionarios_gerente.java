@@ -1,3 +1,4 @@
+package Cadastro_de_Funcionarios;
 // package POO;
 public class Funcionarios_gerente extends Funcionarios{ 
     private double bonus_venda;

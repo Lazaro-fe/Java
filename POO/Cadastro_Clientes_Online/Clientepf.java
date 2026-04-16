@@ -1,6 +1,7 @@
+package Cadastro_Clientes_Online;
 // package POO;
 
-public class Clientepf extends Cliente{
+public class Clientepf extends ClienteP{
     
     private String cpf;
 

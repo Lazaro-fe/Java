@@ -1,3 +1,5 @@
+package Loja_de_Produtos;
+
 // package POO;
 
 public class Loja {

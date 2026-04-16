@@ -1,4 +1,4 @@
-// package POO;
+// package Array_List;
 
 import java.util.ArrayList;
 import java.util.Scanner;

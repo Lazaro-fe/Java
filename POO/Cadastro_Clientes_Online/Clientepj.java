@@ -1,6 +1,7 @@
+package Cadastro_Clientes_Online;
 // package POO;
 
-public class Clientepj  extends Cliente{
+public class Clientepj  extends ClienteP{
     
     private String cnpj;
 
