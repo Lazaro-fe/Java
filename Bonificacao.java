@@ -1,3 +1,3 @@
-public interface Bonificacao {
+interface Bonificacao {
     double calcular_bonus();
 }

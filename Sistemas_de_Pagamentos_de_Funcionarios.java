@@ -1,7 +1,8 @@
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Sistemas_de_Pagamentos_de_Funcionários {
+public class Sistemas_de_Pagamentos_de_Funcionarios {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -32,8 +33,10 @@ public class Sistemas_de_Pagamentos_de_Funcionários {
                 Funcionario func = null;
 
                 if (opcao_de_cadastro == 1) {
+                    System.out.println();
                     func = new Vendedor(nome, salario_base);
                 } else if (opcao_de_cadastro == 2) {
+                    System.out.println();
                     func = new Gerente(nome, salario_base);
                 } else {
                     System.out.println("Digite uma opção válida entre 1 e 2!\nTente Novamente!");
@@ -44,13 +47,21 @@ public class Sistemas_de_Pagamentos_de_Funcionários {
                 System.out.println("Funcionário cadastrado com sucesso!");
                 funcionarios_cadastrados++;
 
-                }catch (IllegalMisMatchExption e){
+                }catch (InputMismatchException e){
                     System.out.println("Erro de entrada: Você digitou caracteres inválidos onde um número era esperado.");
                     sc.nextLine();
-                } catch {
-                    
+                } catch (IllegalArgumentException e){
+                    System.out.println("Erro de validação: " +e.getMessage());
+                } catch (Exception e) {
+                    System.out.println("Ocorreu um erro inesperado: " +e.getMessage());
                 }
-            }
+        }
+
+        sc.close();
+
+        System.out.println("\n==== RESULTADO DA FOLHA DE PAGAMENTO ====");
+        for(Funcionario f : funcionarios){
+            f.exibir_informacoes_de_funcionario();
         }
     }
 }

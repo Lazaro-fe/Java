@@ -11,7 +11,7 @@ class Vendedor extends Funcionario implements Bonificacao{
 
     @Override
     public double calcular_salario_final(){
-        return this.salario_base + calcular_bonus();
+        return getSalario_base() + calcular_bonus();
     }
 
     public void exibir_informacoes_de_funcionario(){
