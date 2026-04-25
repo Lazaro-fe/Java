@@ -1,3 +1,5 @@
+package Sistemas_de_Pagamentos_de_Funcionarios;
+
 class Gerente extends Funcionario implements Bonificacao{
 
     public Gerente(String nome, double salario_base){

@@ -1,3 +1,4 @@
+package Sistemas_de_Pagamentos_de_Funcionarios;
 class Vendedor extends Funcionario implements Bonificacao{
 
     public Vendedor(String nome, double salario_base){

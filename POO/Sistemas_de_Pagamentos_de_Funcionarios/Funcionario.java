@@ -1,3 +1,4 @@
+package Sistemas_de_Pagamentos_de_Funcionarios;
 abstract class Funcionario{
 
     private String nome;
