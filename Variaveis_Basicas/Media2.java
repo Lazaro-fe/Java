@@ -1,7 +1,8 @@
+package Variaveis_Basicas;
 // package Estruturas_Condicionais;
 import java.util.Scanner;
 
-public class Atividade1 {
+public class Media2 {
     
     public static void main (String [] args) {
         float n1, n2, media;

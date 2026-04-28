@@ -1,3 +1,4 @@
+package Variaveis_Basicas;
 // package Estruturas_Condicionais;
 import java.util.Scanner;
 
