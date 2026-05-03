@@ -18,8 +18,10 @@ public class Locadora_Part1 {
         // Calculo o total de fitas com os clientes da pituba
         int Fitas_com_os_clientes_pituba = total_de_fitas_distribuidas_entre_lojas / locadora_pituba;
 
+        // Somando a Quantidade de Clientes das Duas Locadoras
         int total_de_clientes = Fitas_com_os_clientes_itapua + Fitas_com_os_clientes_pituba;
 
+        // Utilizo o Double em parênteses para transforma uma variável que está definida como int para Double
         double Percentual = ((double) total_de_clientes / acervo_total_de_fitas) * 100;
 
         System.out.println("\n=== RESULTADO DO PERCENTUAL DA LOCADORA ===");

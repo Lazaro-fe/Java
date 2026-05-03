@@ -4,7 +4,7 @@ public class Calculo_de_Posto {
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double soma_dos_precos = 0;
+        double soma_dos_precos = 0; // Defino a soma dos preços como 0, pois ele irá somar o números digitados e acumula-los
         int quantida_de_postos= 3;
 
 
