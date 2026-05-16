@@ -1,3 +1,4 @@
+package Variaveis_Basicas;
 import java.util.Scanner;
 
 public class Locadora_Part2 {

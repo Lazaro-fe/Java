@@ -1,9 +1,12 @@
+package Variaveis_Basicas;
 import java.util.Scanner;
 
 public class Locadora_Part1 {
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+        // Nesse exercício já estão definidos os valores de cada coisa presente em cada acervo e locadoras
 
         int acervo_total_de_fitas = 4000;
         int total_de_fitas_distribuidas_entre_lojas = acervo_total_de_fitas / 2;
